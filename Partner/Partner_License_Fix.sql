@@ -1,2 +1,0 @@
-select * from ADUserLicence where AD_UserObjectGUID not in (select AD_UserObjectGUID from ADLicencedUsers)
---Delete from ADUserLicence where AD_UserObjectGUID not in (select AD_UserObjectGUID from ADLicencedUsers)
