@@ -1,4 +1,3 @@
---Missing info
 SELECT dbo.ContractEntityCode(M.EntityRef) AS 'Entity'
 	, E.Name
 	, M.Number AS 'Matter'
@@ -22,12 +21,3 @@ ORDER BY D.Description
 	, M.EntityRef
 	, M.Number
 	, UF.FullName
-
-
-
-
-
-
-
-
-

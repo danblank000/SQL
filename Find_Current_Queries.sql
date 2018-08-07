@@ -11,14 +11,14 @@ ORDER BY req.total_elapsed_time
 
 
 --Find who is responsible
-EXEC sp_who '482'
+EXEC sp_who '434'
 EXEC sp_who '568'
 EXEC sp_who '317'
 EXEC sp_who '536'
 
 
 --Stop query
-KILL 482
+KILL 434
 KILL 452
 KILL 288
 KILL 248
